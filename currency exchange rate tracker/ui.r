@@ -1,14 +1,20 @@
-library(shiny)
 
-# Define UI for application that plots random distributions 
 shinyUI(pageWithSidebar(
 
   # Application title
-  headerPanel("Track USD - INR conversion rates"),
+  headerPanel("MACD tracker - USD"),
 
+  sidebarPanel(
+   
+     selectInput("currency", "Currency:",
+                choices = c("INR", "EUR", "JPY"))
+    
+    
+  ),
 
-  # Show a plot of the generated distribution
+  # Plot of moving averages
   mainPanel(
+    verbatimTextOutput("summary"),
     plotOutput("distPlot")
   )
 ))
