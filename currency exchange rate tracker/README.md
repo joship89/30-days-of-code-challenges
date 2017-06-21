@@ -1,6 +1,6 @@
 # Currency Exchange Rate Moving Averages Tracker
 
-- MACD was developed by Gerald Appel in the late 1970s. It is supposed to reveal changes in the strength, direction, momentum, and duration of a trend in a time series
+- Moving Average Convergence Divergence is a technical indicator developed by Gerald Appel in the late 1970s. It is supposed to reveal changes in the strength, direction, momentum, and duration of a trend in a time series.
 
 - This app tracks moving averages of currency conversion rates to detect strong trend changes and momentum indicators.
 
