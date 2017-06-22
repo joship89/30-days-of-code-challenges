@@ -4,11 +4,9 @@
 
 - This app tracks moving averages of currency conversion rates to detect strong trend changes and momentum indicators.
 
-- The idea is to track the relationship between three moving averages of the currency conversion rates. Moving averages for time periods of 30 days, 60 days and 90 days are tracked here. 
+- The idea is to track the relationship between moving averages of the currency conversion rates for time periods of 30 days, 60 days and 90 days. 
 
-- While convergence of shorter term and longer term moving averages signals momentum of current conversion rates, divergence signals end of momentum or current trend.
-
-- As the shorter term moving average diverges further from the longer term moving average it indicates that the upside momentum is increasing. As the shorter term moving average diverges further below the longer term moving average, it means that the downside momentum is increasing.
+- As the shorter term moving average diverges further from the longer term moving average it indicates that the upside momentum is increasing. Divergence signals the end of momentum or current trend. 
 
 
 ## Usage
@@ -20,4 +18,7 @@ https://prasannajoshi.shinyapps.io/currency-exchange-rate-tracker2/
 
 ## Notes
 
-The app will be extended in the future to include conversion rates for other currencies
+- The app will be extended in the future to include conversion rates for other currencies.
+- Email notifications upon convergence and divergence of moving averages will be tested.
+
+
