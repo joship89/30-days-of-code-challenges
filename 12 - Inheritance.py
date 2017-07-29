@@ -17,13 +17,8 @@ class Student(Person):
         self.testScores = testScores
     
     def calculate(self):
-        total = 0
-
-        for testScore in self.testScores:
-            total += testScore
-
-        avg = total / len(self.testScores)
-
+        avg = sum(self.scores) / len(self.scores)
+        
         if 90 <= avg <= 100:
             return 'O'
         if 80 <= avg < 90:
@@ -35,7 +30,6 @@ class Student(Person):
         if 40 <= avg < 55:
             return 'D'
         return 'T'
-
 
 line = input().split()
 firstName = line[0]
