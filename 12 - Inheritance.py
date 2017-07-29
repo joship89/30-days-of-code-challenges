@@ -11,9 +11,11 @@ class Person:
 
 class Student(Person):
     def __init__(self, firstName, lastName, idNumber, testScores):
-        super().__init__(firstName, lastName, idNumber)
+        self.firstName = firstName
+        self.lastName = lastName
+        self.idNumber = idNumber
         self.testScores = testScores
-
+    
     def calculate(self):
         total = 0
 
